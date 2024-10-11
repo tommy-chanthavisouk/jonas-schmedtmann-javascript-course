@@ -50,3 +50,20 @@ console.log(typeof year);
 
 console.log(typeof null);
 */
+
+// let, const and var
+/*
+let age = 30;
+age = 31;
+
+const birthYear = 1990;
+birthYear = 1989;
+const job;
+
+var job = "programmer";
+job = "teacher";
+
+// Don't - Create property on Global object
+lastName = "Chanthavisouk";
+console.log(lastName);
+*/
