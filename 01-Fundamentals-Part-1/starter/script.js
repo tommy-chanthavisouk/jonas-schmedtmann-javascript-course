@@ -67,3 +67,36 @@ job = "teacher";
 lastName = "Chanthavisouk";
 console.log(lastName);
 */
+
+// Basic Operators
+/*
+// Math operators
+const now = 2037;
+const ageTommy = now - 1990;
+const ageSarah = now - 2018;
+console.log(ageTommy, ageSarah);
+
+// 2 ** 3 means to the power of 3 = 2 * 2 * 2;
+console.log(ageTommy * 2, ageTommy / 10, 2 ** 3);
+
+const firstName = "Tommy";
+const lastName = "Chanthavisouk";
+console.log(firstName + " " + lastName);
+
+// Assignment operators
+let x = 10 + 5;
+x += 10; // x = x + 10 = 25
+x *= 4; // x = x * 4 = 100
+x++;
+x--;
+x--;
+console.log(x);
+
+// Comparison operators
+console.log(ageTommy > ageSarah); // >, <, >=, <=
+console.log(ageSarah >= 18);
+
+const isFullAge = ageSarah >= 18;
+
+console.log(now - 1991 > now - 2018);
+*/
