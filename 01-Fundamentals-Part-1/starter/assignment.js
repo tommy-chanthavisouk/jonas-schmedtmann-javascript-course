@@ -37,3 +37,9 @@ const description1 =
   language;
 
 // console.log(description1);
+
+// Strings and Template Literals
+const description2 = `${country} is in ${continent}, and its ${population} million people speak ${language}`;
+
+// console.log(description1);
+// console.log(description2);

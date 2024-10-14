@@ -117,7 +117,7 @@ const averageAge = (ageTommy + ageSarah) / 2;
 console.log(ageTommy, ageSarah, averageAge);
 */
 
-// String and Template Literals
+// Strings and Template Literals
 /*
 const firstName = "Tommy";
 const job = "programmer";
