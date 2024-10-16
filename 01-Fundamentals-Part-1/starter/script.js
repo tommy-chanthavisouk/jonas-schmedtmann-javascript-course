@@ -288,3 +288,22 @@ if (day === "monday") {
   console.log("Not a valid day!");
 }
 */
+
+// Statements and Expressions
+/*
+// Expressions // Produce values
+// Examples
+// 3 + 4;
+// 1991;
+// true && false && !false;
+
+// Statements // Does not produce values, they are actions
+if (23 > 10) {
+  // Statement => declares variable, Expression = string
+  const str = "23 is bigger";
+}
+
+// Expressions in template literals
+const me = "Tommy";
+console.log(`I'm ${2037 - 1990} years old ${me}`);
+*/
