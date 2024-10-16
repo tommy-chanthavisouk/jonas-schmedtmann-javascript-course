@@ -225,3 +225,23 @@ else console.log("Number is not 23 or 7 or 9");
 
 if (favourite !== 23) console.log("Why not 23?");
 */
+
+// Logical Operators
+/*
+const hasDriversLicence = true; // A
+const hasGoodVision = true; // B
+
+console.log(hasDriversLicence && hasGoodVision);
+console.log(hasDriversLicence || hasGoodVision);
+console.log(!hasDriversLicence);
+
+// if (hasDriversLicence && hasGoodVision) console.log("Sarah is able to drive!");
+// else console.log("Someone else should drive...");
+
+const isTired = false; // C
+console.log(hasDriversLicence && hasGoodVision && isTired);
+
+if (hasDriversLicence && hasGoodVision && !isTired)
+  console.log("Sarah is able to drive!");
+else console.log("Someone else should drive...");
+*/
