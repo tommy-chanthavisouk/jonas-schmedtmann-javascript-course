@@ -21,3 +21,22 @@ const checkWinner = function (avgDolphins, avgKoalas) {
   }
 };
 // checkWinner(scoreDolphins, scoreKoalas);
+
+// CHALLENGE #2
+const calcTip = function (value) {
+  return 50 <= value && value <= 300 ? value * 0.15 : value * 0.2;
+};
+const bills = [125, 555, 44];
+const tips = [
+  calcTip(bills[0]),
+  calcTip(bills[1]),
+  calcTip(bills[bills.length - 1]),
+];
+const totals = [
+  tips[0] + bills[0],
+  tips[1] + bills[1],
+  tips[tips.length - 1] + bills[bills.length - 1],
+];
+// console.log(bills);
+// console.log(tips);
+// console.log(totals);
