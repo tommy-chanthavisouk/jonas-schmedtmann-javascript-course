@@ -82,3 +82,22 @@ const descChina2 = describePopulation(countryCHN, populationCHN);
 // console.log(descBelgium2);
 // console.log(descGermany2);
 // console.log(descChina2);
+
+// Introduction to Arrays
+const populations = [
+  populationFRA,
+  populationBEL,
+  populationGER,
+  populationCHN,
+];
+// console.log(populations.length === 4);
+
+// const percentages = [
+//   percentageOfWorld1(populationFRA),
+//   percentageOfWorld1(populationBEL),
+//   percentageOfWorld1(populationGER),
+//   percentageOfWorld1(populationCHN),
+// ];
+const percentages = [percFrance1, percBelgium1, percGermany1, percChina1];
+
+// console.log(percentages);
