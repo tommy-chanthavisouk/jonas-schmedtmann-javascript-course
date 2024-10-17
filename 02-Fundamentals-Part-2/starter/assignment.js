@@ -52,7 +52,14 @@ const percBelgium2 = percentageOfWorld2(populationBEL);
 const percGermany2 = percentageOfWorld2(populationGER);
 const percChina2 = percentageOfWorld2(populationCHN);
 
-// console.log(percFrance1, percFrance2);
-// console.log(percBelgium1, percBelgium2);
-// console.log(percGermany1, percGermany2);
-// console.log(percChina1, percChina2);
+const percentageOfWorld3 = (population) => (population / 7900) * 100;
+
+const percFrance3 = percentageOfWorld3(populationFRA);
+const percBelgium3 = percentageOfWorld3(populationBEL);
+const percGermany3 = percentageOfWorld3(populationGER);
+const percChina3 = percentageOfWorld3(populationCHN);
+
+// console.log(percFrance1, percFrance2, percFrance3);
+// console.log(percBelgium1, percBelgium2, percBelgium3);
+// console.log(percGermany1, percGermany2, percGermany3);
+// console.log(percChina1, percChina2, percChina3);
