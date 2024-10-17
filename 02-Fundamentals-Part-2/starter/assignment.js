@@ -25,13 +25,15 @@ function describeCountry(country, population, capitalCity) {
   return `${country} has ${population} million people and its capital city is ${capitalCity}`;
 }
 
-const descFrance = describeCountry(countryFRA, populationFRA, capitalCityFRA);
-const descBelgium = describeCountry(countryBEL, populationBEL, capitalCityBEL);
-const descGermany = describeCountry(countryGER, populationGER, capitalCityGER);
+const descFrance1 = describeCountry(countryFRA, populationFRA, capitalCityFRA);
+const descBelgium1 = describeCountry(countryBEL, populationBEL, capitalCityBEL);
+const descGermany1 = describeCountry(countryGER, populationGER, capitalCityGER);
+const descChina1 = describeCountry(countryCHN, populationCHN, capitalCityCHN);
 
 // console.log(descFrance);
 // console.log(descBelgium);
 // console.log(descGermany);
+// console.log(descChina1);
 
 // Function Declarations vs. Expressions
 function percentageOfWorld1(population) {
@@ -63,3 +65,20 @@ const percChina3 = percentageOfWorld3(populationCHN);
 // console.log(percBelgium1, percBelgium2, percBelgium3);
 // console.log(percGermany1, percGermany2, percGermany3);
 // console.log(percChina1, percChina2, percChina3);
+
+const describePopulation = function (country, population) {
+  const percentage = percentageOfWorld1(population);
+  const description = `${country} has ${population} million people, which is about ${percentage}% of the world`;
+
+  return description;
+};
+
+const descFrance2 = describePopulation(countryFRA, populationFRA);
+const descBelgium2 = describePopulation(countryBEL, populationBEL);
+const descGermany2 = describePopulation(countryGER, populationGER);
+const descChina2 = describePopulation(countryCHN, populationCHN);
+
+// console.log(descFrance2);
+// console.log(descBelgium2);
+// console.log(descGermany2);
+// console.log(descChina2);
