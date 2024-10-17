@@ -101,3 +101,21 @@ const populations = [
 const percentages = [percFrance1, percBelgium1, percGermany1, percChina1];
 
 // console.log(percentages);
+
+// Basic Array Operations (Methods)
+// /*
+const neighbours = [countryBEL, countryGER];
+
+neighbours.push("Utopia");
+// console.log(neighbours);
+
+neighbours.pop();
+// console.log(neighbours);
+
+// if (!neighbours.includes("Germany")) {
+//   console.log(`Probably not a central european country :D`);
+// }
+
+const indexNeighbour = neighbours.indexOf("Belgium");
+neighbours[indexNeighbour] = "Republic of Belgium";
+// console.log(neighbours);
