@@ -1,3 +1,4 @@
+//////////////////////////////////////////////////
 // Activating Strict Mode
 "use strict";
 /*
@@ -11,6 +12,7 @@ if (hasDriversLicence) console.log("I can drive :D");
 // const private = 534;
 */
 
+//////////////////////////////////////////////////
 // Functions
 /*
 function logger() {
@@ -36,6 +38,7 @@ console.log(appleOrangeJuice);
 const num = Number("23");
 */
 
+//////////////////////////////////////////////////
 // Functions Declarations vs. Expressions
 /*
 // Function declaration
@@ -53,6 +56,7 @@ const age2 = calcAge2(1990);
 console.log(age1, age2)
 */
 
+//////////////////////////////////////////////////
 // Arrow Functions
 /*
 const calcAge3 = (birthYear) => 2037 - birthYear;
@@ -70,6 +74,7 @@ console.log(yearsUntilRetirement(1990, "Tommy"));
 console.log(yearsUntilRetirement(1980, "Bob"));
 */
 
+//////////////////////////////////////////////////
 // Functions Calling Other Functions
 /*
 const cutFruitPieces = (fruit) => fruit * 4;
@@ -82,4 +87,25 @@ const fruitProcessor = function (apples, oranges) {
   return juice;
 };
 console.log(fruitProcessor(2, 3));
+*/
+
+//////////////////////////////////////////////////
+// Reviewing Functions
+/*
+const calcAge = (birthYear) => 2037 - birthYear;
+
+const yearsUntilRetirement = function (birthYear, firstName) {
+  const age = calcAge(birthYear);
+  const retirement = 65 - age;
+
+  if (retirement > 0) {
+    console.log(`${firstName} retires in ${retirement} years`);
+    return retirement;
+  } else {
+    console.log(`${firstName} has already retired 🎉`);
+    return -1;
+  }
+};
+console.log(yearsUntilRetirement(1990, "Tommy"));
+console.log(yearsUntilRetirement(1950, "Mike"));
 */
