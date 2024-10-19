@@ -206,3 +206,46 @@ const tommy = {
 };
 console.log(tommy);
 */
+
+//////////////////////////////////////////////////
+// Dot vs. Bracket Notation
+/*
+const tommy = {
+  firstName: "Tommy",
+  lastName: "Chanthavisouk",
+  age: 2037 - 1990,
+  job: "student",
+  friends: ["Michael", "Peter", "Steven"],
+};
+console.log(tommy);
+
+console.log(tommy.lastName);
+console.log(tommy["lastName"]);
+
+const nameKey = "Name";
+console.log(tommy["first" + nameKey]);
+console.log(tommy["last" + nameKey]);
+
+// Error! Use brackets to compute an expression
+// console.log(tommy.'first' + nameKey)
+
+// const interestedIn = prompt(
+//   "What do you want to know about Jonas? Choose between firstName, lastName, age, job, and friends"
+// );
+const interestedIn = "location";
+
+if (tommy[interestedIn]) console.log(tommy[interestedIn]);
+else
+  console.log(
+    "Wrong request! Choose between firstName, lastName, age, job, and friends"
+  );
+
+tommy.location = "France";
+tommy["twitter"] = "@tommychanthavisouk";
+console.log(tommy);
+
+// Challenge
+console.log(
+  `${tommy.firstName} has ${tommy.friends.length} friends, and his best friend is called ${tommy.friends[0]}`
+);
+*/
