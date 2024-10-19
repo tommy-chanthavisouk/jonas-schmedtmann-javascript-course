@@ -128,6 +128,16 @@ const myCountry = {
   language: "french",
   population: populationFRA,
   neighbours: neighbours,
+
+  describe: function () {
+    console.log(
+      `${this.country} has ${this.population} million ${this.language}-speaking people, ${this.neighbours.length} neighbouring countries and a capital called ${this.capital}`
+    );
+  },
+  checkIsland: function () {
+    this.isIsland = neighbours.length ? true : false;
+    return this.isIsland;
+  },
 };
 // console.log(myCountry);
 
@@ -141,3 +151,10 @@ console.log(myCountry.population);
 myCountry["population"] -= 2;
 console.log(myCountry.population);
 */
+
+// Object Methods
+// myCountry.describe();
+// myCountry["describe"]();
+
+myCountry.checkIsland();
+// console.log(myCountry.isIsland);
