@@ -354,3 +354,26 @@ for (let i = 0; i < tommy.length; i++) {
   console.log(tommy[i], typeof tommy[i]);
 }
 */
+
+//////////////////////////////////////////////////
+// Looping Backwards and Loops in Loops
+/*
+const tommy = [
+  "Tommy",
+  "Chanthavisouk",
+  2037 - 1990,
+  "student",
+  ["Michael", "Peter", "Steven"],
+  true,
+];
+
+for (let i = tommy.length - 1; i >= 0; i--) {
+  console.log(i, tommy[i]);
+}
+
+for (let exercise = 1; exercise <= 3; exercise++) {
+  console.log(`---------- Starting exercise ${exercise}`);
+  for (let rep = 1; rep <= 5; rep++)
+    console.log(`Exercise ${exercise}: Lifting weight repetition ${rep} 🏋️`);
+}
+*/
