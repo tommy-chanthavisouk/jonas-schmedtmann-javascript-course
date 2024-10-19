@@ -195,3 +195,14 @@ if (friends.includes("Steven")) {
 */
 
 //////////////////////////////////////////////////
+// Introduction to Objects
+/*
+const tommy = {
+  firstName: "Tommy",
+  lastName: "Chanthavisouk",
+  age: 2037 - 1990,
+  job: "student",
+  friends: ["Michael", "Peter", "Steven"],
+};
+console.log(tommy);
+*/
