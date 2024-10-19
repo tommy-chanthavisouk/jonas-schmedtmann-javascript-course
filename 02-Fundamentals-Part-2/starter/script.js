@@ -312,3 +312,45 @@ for (let rep = 1; rep <= 10; rep++) {
   console.log(`Lifting weights repetition ${rep} 🏋️`);
 }
 */
+
+//////////////////////////////////////////////////
+// Looping Arrays, Breaking and Continuing
+/*
+const tommy = [
+  "Tommy",
+  "Chanthavisouk",
+  2037 - 1990,
+  "student",
+  ["Michael", "Peter", "Steven"],
+  true,
+];
+const types = [];
+for (let i = 0; i < tommy.length; i++) {
+  // Reading from tommy array
+  // console.log(tommy[i]);
+
+  // Filling types array
+  // types[i] = typeof tommy[i];
+  types.push(typeof tommy[i]);
+}
+// console.log(types);
+
+const years = [1991, 2007, 1969, 2020];
+const ages = [];
+
+for (let i = 0; i < years.length; i++) ages.push(2037 - years[i]);
+// console.log(ages);
+
+// continue and break
+console.log(`--- ONLY STRINGS ---`);
+for (let i = 0; i < tommy.length; i++) {
+  if (typeof tommy[i] !== "string") continue;
+  console.log(tommy[i], typeof tommy[i]);
+}
+
+console.log(`--- BREAK WITH NUMBER ---`);
+for (let i = 0; i < tommy.length; i++) {
+  if (typeof tommy[i] === "number") break;
+  console.log(tommy[i], typeof tommy[i]);
+}
+*/
