@@ -119,3 +119,14 @@ neighbours.pop();
 const indexNeighbour = neighbours.indexOf("Belgium");
 neighbours[indexNeighbour] = "Republic of Belgium";
 // console.log(neighbours);
+
+// Introduction to Objects
+// /*
+const myCountry = {
+  country: countryFRA,
+  capital: capitalCityFRA,
+  language: "french",
+  population: populationFRA,
+  neighbours: neighbours,
+};
+// console.log(myCountry);
