@@ -249,3 +249,46 @@ console.log(
   `${tommy.firstName} has ${tommy.friends.length} friends, and his best friend is called ${tommy.friends[0]}`
 );
 */
+
+//////////////////////////////////////////////////
+// Object Methods
+/*
+const tommy = {
+  firstName: "Tommy",
+  lastName: "Chanthavisouk",
+  birthYear: 1990,
+  job: "student",
+  friends: ["Michael", "Peter", "Steven"],
+  hasDriversLicence: false,
+
+  // Methods
+  // calcAge: function (birthYear) {
+  //   return 2037 - birthYear;
+  // },
+
+  // calcAge: function () {
+  //   // console.log(this);
+  //   return 2037 - this.birthYear;
+  // },
+
+  calcAge: function () {
+    this.age = 2037 - this.birthYear;
+    return this.age;
+  },
+
+  getSummary: function () {
+    return `${this.firstName} is a ${this.calcAge()}-year old ${
+      this.job
+    }, and he has ${this.hasDriversLicence ? "a" : "no"} driver's licence`;
+  },
+};
+console.log(tommy.calcAge());
+
+console.log(tommy.age);
+console.log(tommy.age);
+console.log(tommy.age);
+
+// Challenge
+console.log(tommy.getSummary());
+// console.log(tommy["getSummary"]());
+*/
